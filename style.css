@@ -27,7 +27,7 @@ main {
 }
 
 h1 {
-    display: ;
+    display: none;
     color: rgb(161, 6, 6);
     font-weight: 900;
     font-size: 30px;
