@@ -33,7 +33,11 @@ main {
 
 h1 {
     display: none;
+<<<<<<< HEAD
     color: rgb(206, 3, 3);
+=======
+    color: rgb(161, 6, 6);
+>>>>>>> 9d4cd76d9a35bed2dc107bf12f8c60a0c09354ae
     font-weight: 900;
     font-size: 100px;
     margin-bottom: 100px;
