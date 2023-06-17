@@ -31,17 +31,13 @@ main {
 
 }
 
-h1 {
+.parabens {
     display: none;
-<<<<<<< HEAD
-    color: rgb(206, 3, 3);
-=======
-    color: rgb(161, 6, 6);
->>>>>>> 9d4cd76d9a35bed2dc107bf12f8c60a0c09354ae
+    color: rgb(202, 3, 3);
     font-weight: 900;
     font-size: 100px;
     margin-bottom: 100px;
-  
+
 }
 
 canvas {
@@ -128,7 +124,6 @@ section {
     margin-bottom: 5px;
     cursor: pointer;
 
-
 }
 
 .botao:active {
@@ -175,4 +170,46 @@ section {
 
 .sinal:active {
     transform: scale(0.9);
+}
+
+
+@media (max-width:600px) {
+
+
+    .parabens{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    main {
+        width: 360px;
+        height: 600px;
+    }
+
+    canvas {
+        margin-top: 15px;
+        width: 340px;
+        height: 300px;
+        border: solid 5px rgb(63, 63, 63);
+    }
+
+    section {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .painel-segundos{
+        margin-top: 10px;
+    }
+    .painel-botoes{
+        width: 300px;
+        height: 60px;
+       justify-content: space-around;
+    }
+
+  
+   
 }
